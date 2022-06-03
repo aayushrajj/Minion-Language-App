@@ -20,7 +20,12 @@ hr {
     margin: 3rem 0rem;
 }
 
-
+/* textarea */
+.text-area{
+    display: block;
+    width: 90%;
+    margin: 1rem;
+}
 
 /* containers */
 .container {
