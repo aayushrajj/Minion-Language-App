@@ -10,9 +10,14 @@
 // alert(welcomeMessage);
 
 var btntranslate = document.querySelector("#btn-translate");
+var textInput = document.querySelector("#text-input");
 
-btntranslate.addEventListener("click" , clickHandler() );
+console.log(textInput);
 
 function clickHandler(){
-    console.log(btntranslate);
+    console.log("Clicked!");
+    console.log("input" , textInput.value);
 }
+
+btntranslate.addEventListener("click" , clickHandler);
+
