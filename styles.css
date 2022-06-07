@@ -1,6 +1,6 @@
 /* USE OF 'BEM' NAMING METHODOLGY IS A GOOD PRACTICE */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 /* css variables */
 :root {
@@ -12,7 +12,7 @@
 
 /* body */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Fredoka One', cursive;
     margin: 0px;
 }
 
@@ -22,13 +22,11 @@ body {
 .navigation {
     background-color: var(--primary--color);
     color: black;
-    padding: 2rem 1rem;
+    padding: 5px;
     text-align: center;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
-
-
 
 
 /* input-text-area */
@@ -40,14 +38,29 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     padding: 10px 10px;
     border: 2px solid black;
     line-height: 150%;
 }
 
+
+/* container-btn */
+.container-btn{
+    text-align: center;
+}
+
 /* btn-translate */
 #btn-translate{
+    background-color: var(--primary--color);
+    font-family: inherit;
+    padding: 30px 40px;
+    border: none;
+    position: relative;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
     
 }
 
