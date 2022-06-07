@@ -1,3 +1,5 @@
+/* BEM naming convention used */
+
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 /* css variables */
@@ -38,7 +40,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 10px 10px;
     border: 1px solid black;
     border-radius: 0.5rem;
@@ -84,7 +86,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     padding: 10px 10px;
     border: 2px solid black;
     border-radius: 0.5rem;
@@ -96,9 +98,17 @@ body {
 /* footer */
 .footer {
     background-color: var(--primary--color);
-    padding: 40px;
+    padding: 10px 30px;
     color: black;
     text-align: center;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
+}
+.footer .list-footer .list-footer-item {
+    list-style: none;
+    padding: 0px 20px;
+    display: inline;
+}
+.footer .link {
+    color: black;
 }
