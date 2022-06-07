@@ -1,18 +1,16 @@
-/* USE OF 'BEM' NAMING METHODOLGY IS A GOOD PRACTICE */
-
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 
 /* css variables */
 :root {
     --primary--color: #FFD55E; /*minion yellow*/
-    --dark--grey: #374151;
-    --light--slate: #e2e8f0;
+    --light--yellow: #fefce8;
 }
 
 
 /* body */
 body {
     font-family: 'Fredoka One', cursive;
+    background-color:  #f3f4f6;
     margin: 0px;
 }
 
@@ -24,13 +22,15 @@ body {
     color: black;
     padding: 5px;
     text-align: center;
+    font-size: 200%;
     border-bottom-left-radius: 2rem;
     border-bottom-right-radius: 2rem;
 }
 
 
 /* input-text-area */
-.input-text-area{
+.input-text-area {
+    font-family: inherit;
     box-sizing: border-box;
     display: block;
     width: 50%;
@@ -40,115 +40,65 @@ body {
     margin-top: 50px;
     margin-bottom: 30px;
     padding: 10px 10px;
-    border: 2px solid black;
+    border: 1px solid black;
+    border-radius: 0.5rem;
     line-height: 150%;
+    background-color: var(--light--yellow);
 }
 
 
 /* container-btn */
-.container-btn{
+.container-btn {
     text-align: center;
 }
 
 /* btn-translate */
-#btn-translate{
+#btn-translate {
     background-color: var(--primary--color);
     font-family: inherit;
-    padding: 30px 40px;
+    font-size: xx-small;
+    padding: 25px 35px;
+    cursor: pointer;
     border: none;
+    border-radius: 0.5rem;
     position: relative;
-    font-size: 2rem;
+    font-size: 20px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
-    
 }
 
+
+/* heading-output */
+.heading-output {
+    text-align: center;
+}
 
 /* output */
-#output{
+#output {
+    font-family: inherit;
+    box-sizing: border-box;
     display: block;
-    width: 90%;
-    height: 10vh;
-    margin: 1rem;
-    padding: 1rem;
-    border: 1px solid black;
-}
-
-
-
-
-
-
-/* header */
-.hero {
-    padding: 3rem;
-    padding-top: 5rem;
-}
-
-.hero .hero-image {
-    max-width: 350px;
-    display: block;
-    margin: auto;
-}
-
-.hero .hero-heading {
-    padding-top: 1rem;
-    font-size: xx-large;
-    color: var(--dark--grey);
-    text-align: center;
-}
-
-.hero-heading-highlighted {
-    color: var(--primary--color);
-}
-
-.projects-hero {
-    padding: 1rem;
-    text-align: center;
-}
-
-
-/* section */
-.section {
-    padding: 2rem;
-}
-
-.section h3 {
-    text-align: center;
-}
-
-.section-off-white {
-    background-color: var(--light--slate);
-}
-
-.section h3 {
-    color: var(--primary--color);
+    width: 50%;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    line-height: 150%;
+    background-color: var(--light--yellow);
 }
 
 
 /* footer */
 .footer {
     background-color: var(--primary--color);
-    padding: 2rem 1rem;
+    padding: 40px;
     color: black;
     text-align: center;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
-}
-
-.footer-header {
-    font-weight: bold;
-    font-size: large;
-    color: black;
-}
-
-.footer .link {
-    text-decoration: none;
-    color: black;
-}
-
-/* below line code means : if we find 'ul' inside any 'footer' than do as mentioned (we are doing this because brwoser have inbuilt padding codes (e.g. 'padding-inline-start')that may prevent our links/lines to not get aligned exactly at center of the page here) */
-.footer ul {
-    padding-inline-start: 0px;
 }
