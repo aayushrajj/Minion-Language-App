@@ -24,11 +24,8 @@
 
 
 
-var btntranslate = document.querySelector("#btn-translate");
-var textInput = document.querySelector("#text-input");
-var outputDiv = document.querySelector("#output");
-
-
+// var outputDiv = document.querySelector("#output");
+// var textInput = document.querySelector("#text-input");
 // outputDiv.innerText = "Ayush Raj";
 // console.log(outputDiv);
 
@@ -37,7 +34,23 @@ var outputDiv = document.querySelector("#output");
 // function clickHandler(){
 //     console.log("Clicked!");
 //     console.log("Input--> " , textInput.value);
+//     outputDiv.innerText = "sn&&fui##22@@!!  " + textInput.value;
+
 // }
+
+
+
+
+var btntranslate = document.querySelector("#btn-translate");
+var textInput = document.querySelector("#text-input");
+var outputDiv = document.querySelector("#output");
+
+
+var serverURL = "https://api.funtranslations.com/translate/minion.json"
+
+function getTranslationURL(text){
+
+}
 
 function clickHandler(){
     outputDiv.innerText = "sn&&fui##22@@!!  " + textInput.value; 
