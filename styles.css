@@ -16,19 +16,41 @@ body {
     margin: 0px;
 }
 
-hr {
-    margin: 3rem 0rem;
+
+
+/* navigation */
+.navigation {
+    background-color: var(--primary--color);
+    color: black;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
 
-/* textarea */
-.text-area{
+
+
+
+/* input-text-area */
+.input-text-area{
+    box-sizing: border-box;
     display: block;
-    width: 90%;
-    margin: 1rem;
-    height: 10vh;
-    padding: 1rem;
-    border: 1px solid black;
+    width: 50%;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+    border: 2px solid black;
+    line-height: 150%;
 }
+
+/* btn-translate */
+#btn-translate{
+    
+}
+
 
 /* output */
 #output{
@@ -40,113 +62,8 @@ hr {
     border: 1px solid black;
 }
 
-/* heading-output */
-.heading-output{
-    font-size: larger;
-}
 
 
-
-
-
-
-/* containers */
-.container {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.container-center {
-    max-width: 600px;
-    margin: auto;
-}
-
-.container-fluid {
-    max-width: 700px;
-    width: auto;
-}
-
-
-
-/* links */
-.link {
-    text-align: center;
-    padding: 3rem 1rem;
-}
-
-.link-primary {
-    background-color: var(--primary--color);
-    text-decoration: none;
-    border-radius: 0.5rem;
-    color: white;
-}
-
-.link-secondary {
-    border: 1px solid var(--primary--color);
-    border-radius: 0.5rem;
-    text-decoration: none;
-    color: darkmagenta;
-}
-
-.link-navigation {
-    text-decoration: none;
-    color: white;
-}
-
-.link-active {
-    font-weight: bold;
-}
-
-
-
-/* lists */
-.list-unordered {
-    list-style: none;
-}
-
-.list-unordered-inline-item {
-    display: inline;
-    padding: 0rem 1rem;
-}
-
-.list-unordered-inline-nav-item {
-    display: inline;
-}
-
-.list-footer .list-footer-item {
-    display: inline;
-}
-
-.projects-list-unordered-item {
-    padding: 0.5rem;
-}
-
-/* .projects-list-unordered{
-    list-style: none;
-    text-align: center;
-} */
-
-
-
-/* navigation */
-.navigation {
-    background-color: var(--primary--color);
-    color: white;
-    padding: 3rem 1rem;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-}
-
-.nav-brand {
-    color: black;
-    text-align: center;
-    font-weight: bold;
-    font-size: large;
-}
-
-.navigation .nav-pills {
-    text-align: right;
-}
 
 
 
@@ -201,6 +118,7 @@ hr {
 .footer {
     background-color: var(--primary--color);
     padding: 2rem 1rem;
+    color: black;
     text-align: center;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
