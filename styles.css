@@ -110,5 +110,6 @@ body {
     display: inline;
 }
 .footer .link {
+    text-decoration: none;
     color: black;
 }
