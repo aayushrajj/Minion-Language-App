@@ -1,8 +1,14 @@
-
 // first we fetched all the variables ( INPUT , OUTPUT , BUTTON ) required ahead 
 var btntranslate = document.querySelector("#btn-translate");
 var textInput = document.querySelector("#text-input");
 var outputDiv = document.querySelector("#output");
+var audioID = document.querySelector("#click-sound");
+
+// button click audio
+function playClickSound() {
+    var clickSound = audioID;
+    clickSound.play();
+}
 
 
 // we fetched the server url , to which we want to talk or get our data
@@ -45,5 +51,6 @@ function clickHandler(){
 
 // what to do when a click happens...
 btntranslate.addEventListener("click" , clickHandler);
+btntranslate.addEventListener("click" , playClickSound);
 
 
