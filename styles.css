@@ -36,7 +36,7 @@ body {
     box-sizing: border-box;
     display: block;
     width: 50%;
-    height: 40vh;
+    height: 20vh;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
@@ -68,8 +68,17 @@ body {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
+    box-shadow: 0 5px #dac913;
 }
 
+#btn-translate:hover {
+    background-color: hsl(39, 72%, 47%);
+}
+
+#btn-translate:active {
+    transform: translateY(4px); /* Moves the button down when clicked */
+    box-shadow: 0 2px #dac913; /* Reduces the shadow size when clicked */
+}
 
 /* heading-output */
 .heading-output {
@@ -82,7 +91,7 @@ body {
     box-sizing: border-box;
     display: block;
     width: 50%;
-    height: 40vh;
+    height: 20vh;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
